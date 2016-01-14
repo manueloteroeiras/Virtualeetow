@@ -1,0 +1,27 @@
+
+{
+  "name": "partita",
+  "version": "0.0.0",
+  "dependencies": {
+    "express": "^4.10.6"
+  },
+  "devDependencies": {
+    "karma": "^0.12.28",
+    "karma-ng-html2js-preprocessor": "^0.1.2",
+    "karma-ng-scenario": "^0.1.0",
+    "load-grunt-tasks": "~0.1.0",
+    "time-grunt": "~0.1.0",
+    "jasmine": "~2.1.1",
+    "jasmine-core": "~2.1.3",
+    "karma-jasmine": "~0.3.2",
+    "express": ">=4.10.6"
+  },
+  "engines": {
+    "node": ">=0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test",
+    "start": "node server.js"
+  },
+  "main": "server.js"
+}
